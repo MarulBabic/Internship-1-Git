@@ -8,5 +8,8 @@ public class Main {
 
         TextFormatter textFormatter = new TextFormatter();
         textFormatter.alignText();
+
+        DiamondMatrix dMatrix = new DiamondMatrix();
+        dMatrix.getDiamondMatrix();
     }
 }
